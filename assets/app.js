@@ -28,7 +28,7 @@ $"(button").on ("click", function (){
         
         //This should construct a queryURL using the gif topic name on the gif button
 
-        var queryURL = "https://api.giphy.com/v1/" +
+        var queryURL = https://api.giphy.com/v1/gifs/search?q="" +
             topic + "&api_key= SvWFrzEjwylYNM6Ck36dpsYArOZKhLAu"                     
 
         //This should perform the AJAX request with the query URL
